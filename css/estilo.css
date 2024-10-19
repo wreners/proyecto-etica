@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-image: url('../images/F.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.intro{
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-inline: 70px;
+}
+
+.intro p{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+header {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+header h1{
+    font-size: 4rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 10vh;
+}
+
+h1 {
+    color: #5c6b80; 
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section {
+    text-align: center; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+
+ul li {
+    margin: 15px; /* Espaciado entre elementos */
+}
+
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+ol {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px; 
+}
+
+ol li {
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+ul li a {
+    display: inline-block;
+    background-color: #5c6b80;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #8c8c8c; /* Color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de escalado */
+}
+
+
+.separator {
+    border-top: 1px solid #FFFFFF;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 45px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #d5edda; 
+}
